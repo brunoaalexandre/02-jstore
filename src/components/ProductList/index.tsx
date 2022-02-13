@@ -13,8 +13,7 @@ export function ProductList() {
         <Product />
         <Product />
         <Product />
-      </div>
-      <div>
+        <Product />
         <Product />
         <Product />
         <Product />

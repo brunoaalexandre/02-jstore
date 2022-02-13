@@ -3,7 +3,12 @@ import styled from "styled-components";
 import backgroundBanner from "../../assets/images/backgroundBanner.png";
 
 export const Container = styled.main`
+  background-image: url(${backgroundBanner});
   background-color: var(--gray-900);
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const Content = styled.div`
@@ -14,6 +19,7 @@ export const Content = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
 
   h1 {
     font-size: 2rem;

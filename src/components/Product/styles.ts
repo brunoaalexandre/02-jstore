@@ -9,7 +9,5 @@ export const ProductBox = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 39px;
-  margin-right: 6.5px;
-  margin-left: 6.5px;
+  margin: 20px;
 `;

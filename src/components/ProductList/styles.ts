@@ -22,8 +22,12 @@ export const Container = styled.section`
     margin-bottom: 3.75rem;
   }
 
-  div {
+  > div {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1120px;
+
+    align-items: center;
+    justify-content: center;
   }
 `;

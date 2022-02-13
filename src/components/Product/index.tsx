@@ -1,11 +1,13 @@
 import { ProductBox } from "./styles";
 
-import product01 from '../../assets/images/01.png';
+interface ProductProps {
+  imageProduct: string;
+}
 
-export function Product() {
-  return(
+export function Product({ imageProduct }: ProductProps) {
+  return (
     <ProductBox>
-      <img src={product01} alt="Air Jordan" />
+      <img src={imageProduct} alt="Air Jordan" />
     </ProductBox>
   );
 }
